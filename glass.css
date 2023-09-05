@@ -1,0 +1,141 @@
+body{
+    background-color: 	#da188329;
+    margin: 0;
+    font-family: Material Icons;
+  }
+  .navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #FFA500; /* สีเมื่อเม้าส์ชี้ */
+  }
+  
+  /* เพิ่มสไตล์ที่เกี่ยวข้องกับรูปแบบสไลด์ */
+  .carousel {
+      width: 80%; /* ปรับขนาดของ Carousel */
+      margin: 0 auto;
+      margin-top: 15px;
+     
+    }
+    .carousel-item img {
+      width: 100%; /* ปรับขนาดของรูปภาพสินค้า */
+      height: 300px;
+      border-radius: 50px;
+    }
+  
+    .product-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    
+    .product-card {
+      border: 1px solid #DA1884;
+      padding: 20px;
+      margin: 10px;
+      max-width: calc(30% - 20px);
+      text-align: center;
+      background-color: rgb(248, 248, 248);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กับกรอบ */
+    }
+    
+    .product-card img {
+      max-width: 100%;
+    }
+    
+    .product-card h2 {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+    
+    .product-card p {
+      color: #777;
+      
+    }
+    
+    .product-card span {
+      display: block;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    
+    .product-card button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    
+    .product-card button:hover {
+      background-color: #0056b3;
+    }
+  
+    .icon-container {
+      display: flex; /* ใช้ Flexbox เพื่อจัดการตำแหน่งขององค์ประกอบ */
+      align-items: center; /* จัดกึ่งกลางตามแนวตั้ง */
+      justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    }
+  
+    .icon {
+      margin:0 10px; /* ระยะห่างระหว่างไอคอนและเนื้อหา */
+    }
+   
+    .order-box {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+  
+  button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 5px;
+  }
+  .cancelBtn{
+    background-color: #ccc;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+
+  
+  
